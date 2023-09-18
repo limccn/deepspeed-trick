@@ -14,7 +14,7 @@ deepspeed --num_gpus=1 your_program \
 --output_dir output_dir \
 --overwrite_output_dir --fp16 \
 --do_train \
---max_train_samples 500 
+--max_train_samples 500 \
 --num_train_epochs 1 \
 --dataset_name wmt16 \
 --dataset_config "zh-en" \
