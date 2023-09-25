@@ -1,8 +1,7 @@
 ## 01 Training
 
 
-### 01-01 DeepSpeed+Transformer
-### Tricks
+### 01-01 DeepSpeed+Transformer Tricks
 
 #### 1. 使用DeepSpeed自带的默认config文件，里面包括大量auto配置的内容，如果你的显存不够大，打开训练即刻OOM，所以在开始之前，先计算一下自己的可用显存大小和实际模型的情况调整优化参数。
 
@@ -142,6 +141,9 @@ Batch Size和Micro Batch Size
 "train_micro_batch_size_per_gpu": 1   //auto , 1..n 
 ```
 
+
+### 参考代码
+[src/01 Training/01 DeepSpeed+Transformer](https://github.com/limccn/deepspeed-trick/tree/main/src/01%20Training/01%20DeepSpeed%2BTransformer)
 
 
 

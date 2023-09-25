@@ -1,0 +1,27 @@
+{
+    "model": "gpt2",
+    "num-layers": 12,
+    "hidden-size": 768,
+    "num-attention-heads": 12,
+    "seq-length": 1024,
+    "max-position-embeddings": 1024,
+    "tokenizer-type": "GPT2BPETokenizer",
+    "vocab-file": "path/to/vocab/file",
+    "merge-file": "path/to/merge/file",
+    "data-path": "path/to/training/data",
+    "tensorboard-dir": "path/to/tensorboard/logs",
+    "checkpoint-activations": true,
+    "train-iters": 100000,
+    "distributed-backend": "nccl",
+    "lr": 0.00015,
+    "warmup": 10000,
+    "batch-size": 8,
+    "clip-grad": 1.0,
+    "lr-decay-style": "cosine",
+    "weight-decay": 1e-2,
+    "gradient-accumulation-steps": 1,
+    "log-interval": 100,
+    "eval-interval": 1000,
+    "eval-iters": 10
+  }
+  
