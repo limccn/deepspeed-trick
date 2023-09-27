@@ -37,6 +37,10 @@ def main():
 
 或者简单`deepspeed_plugin`方式，使用版本需要满足 `DeepSpeed >=0.6.5`
 
+如果使用CPU进行offload，请在`config.yaml`保持use_cpu为`false`或者不要进行use_cpu配置，WTF
+```
+use_cpu: false 
+```
 
 ### 参考代码
 [src/02 Optimization/00 Accelerate](https://github.com/limccn/deepspeed-trick/tree/main/src/02%20Optimization/00%20Accelerate)
