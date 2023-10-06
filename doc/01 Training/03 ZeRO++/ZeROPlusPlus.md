@@ -36,7 +36,7 @@ zero_quantized_gradients: Boolean indicating whether to use quantized zero gradi
 
 
 ### 参考代码
-[src/01 Training/06 ZeRO++](https://github.com/limccn/deepspeed-trick/tree/main/src/01%20Training/03%20ZeRO%2B%2B)
+[src/01 Training/03 ZeRO++](https://github.com/limccn/deepspeed-trick/tree/main/src/01%20Training/03%20ZeRO%2B%2B)
 
 ## 参考
 1. [Microsoft/Megatron-DeepSpeed](https://github.com/microsoft/Megatron-DeepSpeed)
